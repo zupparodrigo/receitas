@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
+ -webkit-font-smoothing:antialiased;
 }
 body{
     background-color: #f3e5d7;
@@ -135,7 +135,8 @@ padding-block: 12px;
 tr:nth-of-type(1)th 
 tr:nth-of-type(1)td{
     padding-bottom:12px ;
-}tr:nth-of-type(4)th 
+}
+tr:nth-of-type(4)th 
 tr:nth-of-type(4)td{
     border: none;
 }
